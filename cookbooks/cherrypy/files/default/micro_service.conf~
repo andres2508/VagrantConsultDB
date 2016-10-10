@@ -1,0 +1,5 @@
+start on started sshd
+stop on runlevel [!2345]
+
+exec /usr/bin/python /home/vagrant/server.py
+respawn
